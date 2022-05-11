@@ -26,7 +26,7 @@ fetch("https://randomuser.me/api/")
                 <div class="icon user_ active" data-title="Hi, My Name is" data-value="${userData.name.first} ${userData.name.last}"></div>
                 <div class="icon email_" id="email" data-title="My email address is" data-value="${userData.email}"></div>
                 <div class="icon birthday_" id="age" data-title="My age is" data-value="${userData.dob.age} Years Old."></div>
-                <div class="icon location_" id="address" data-title="My address is" data-value="${userData.location.city}"></div>
+                <div class="icon location_" id="address" data-title="My address is" data-value="${userData.location.city} ${userData.location.country}"></div>
                 <div class="icon phone_" id="telephone" data-title="My phone number is" data-value="${userData.phone}"></div>
                 <div class="icon password_" id="gender" data-title="My Gender is" data-value="${userData.name.title}"></div>
     `
