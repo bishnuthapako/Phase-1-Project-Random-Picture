@@ -23,9 +23,8 @@ and gender.
 
 ## UpComing Changes
 
-- Upgrade the design tamplete.
-
+- Upgrade the design tamplete using Bootstrap 5.
 - Include the additional button to generate random picture of Male/Female seperately.
-
-- Making the attractive design and more accessable features.
+- More accessable features.
+- Filter the names
 
